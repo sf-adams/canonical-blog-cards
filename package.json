@@ -1,0 +1,14 @@
+{
+  "name": "another-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
+    "watch-css": "yarn build-css && sass --load-path=node_modules -w src:dist --style=compressed"
+  },
+  "dependencies": {
+    "sass": "^1.65.1",
+    "vanilla-framework": "^4.2.0"
+  }
+}

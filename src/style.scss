@@ -1,0 +1,24 @@
+// Import Vanilla framework
+@import "vanilla-framework";
+
+// Include base Vanilla styles
+@include vf-base;
+
+// Include the components you want
+@include vf-p-grid;
+@include vf-p-card;
+@include vf-l-application;
+
+// General
+body {
+  padding: 1rem;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
+
+.card-decoration {
+  border-top: 4px solid $color-mid-dark;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
